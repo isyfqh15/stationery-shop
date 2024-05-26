@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daisy Stationery </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Concert+One&family=Indie+Flower&family=Pacifico&family=Permanent+Marker&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="csssytle3.css"> 
+    <style>
+        :root {
+            --pink: #ff8383dc;
+        }
+
+        * {
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            text-transform: capitalize;
+            transition: .2s linear;
+        }
+
+        html {
+            font-size: 60%;
+            scroll-behavior: smooth;
+            scroll-padding-top: 6rem;
+            overflow-x: hidden;
+        }
+
+        section 
+        {
+            padding: 2rem 9%;
+        }
+
+        .heading {
+            text-align: center;
+            font-size: 4rem;
+            color: #333;
+            padding: 1rem;
+            margin: 2rem 0;
+            background: rgba(255, 51, 153, .05);
+            font-family: 'Pacifico', cursive;
+        }
+
+        .heading span {
+            color: var(--pink);
+            font-family: 'Bebas Neue', sans-serif;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            border-radius: 5rem;
+            background: #333;
+            color: #fff;
+            padding: .9rem 3.5rem;
+            cursor: pointer;
+            font-size: 1.7rem;
+        }
+
+        .btn:hover {
+            background: var(--pink);
+        }
+    </style>
+    
+</head>
+<body> 
+    <header>
+        
+        <a href="#" class="logo">DAISY STATIONERY</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="material-symbols-outlined">
+            <a href="#" class="material-symbols-outlined">favorite </a>
+            <a href="#" class="material-symbols-outlined" id="shoppingCartIcon">shopping_bag <span class="quantity">0</span></a>
+            <a href="#" class="material-symbols-outlined">person </a>
+        </div>
+ </header>
+
+ <!--Home section-->
+
+ <section class="home" id="home">
+    <div class="content">
+        <h3>DAISY STATIONERY :</h3>
+        <span>Where Creativity Blossoms</span>
+        <p>Embrace the elegance of simplicity with Daisy Stationery. Let your thoughts bloom on pages as pristine as daisies,
+            where every stroke of your pen tells a story, and every blank sheet holds endless possibilities.</p>
+        <a href="#products" class="btn"> Shop Now</a>
+    </div>
+ </section>
+<!-- ABOUT SECTION -->
+<section class="about" id="about">
+    <h1 class="heading"><span>about</span> us</h1>
+    <div class="row">
+        <div class="video-container">
+            <video src="PICTURES\school_equipment.mp4" loop autoplay muted></video>
+            <a href="http://www.videezy.com">Free Stock video by Videezy!</a>
+            <h3>DAISY STATIONERY</h3>
+        </div>
+        
+        <div class="content">
+            <h3>About Daisy Stationery Shop?</h3>
+            <p>Daisy Stationery Shop is your one-stop destination for premium-quality stationery essentials. From sleek notebooks to colorful pens, we offer a carefully curated selection designed to inspire creativity and organization in your everyday life. With a commitment to excellence and customer satisfaction, we strive to provide you with a delightful shopping experience and the tools you need to express yourself uniquely. </p>
+           
+            <a href="#" class="btn">Learn More</a>
+
+        </div>
+    </div>
+</section>
+
+<section class="icons-container">
+    <div class="icons">
+        <img src="PICTURES\icon-1.png" alt="">
+        <div class="info">
+            <h3>Free delivery</h3>
+            <span>on all orders</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="PICTURES\icon-2.png" alt="">
+        <div class="info">
+            <h3>10 days returns</h3>
+            <span>Moneyback guarantee</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="PICTURES\icon-3.png" alt="">
+        <div class="info">
+            <h3>offer & gits</h3>
+            <span>on all orders</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="PICTURES\icon-4.png" alt="">
+        <div class="info">
+            <h3>secure paymens</h3>
+            <span>protected by paypal</span>
+        </div>
+    </div>
+</section>
+
+
+  <!--Products section stars-->
+
+<section class="products" id="products">
+    <h1 class="heading">latest <span>products</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <span class="discount">-10%</span>
+            <div class="image">
+                <img src="PICTURES\stickynotes.jpg" alt="">
+                <div class="icons">
+                    <a href="#products" class="material-symbols-outlined">favorite </a>
+                    <a href="#products" class="cart-btn" data-name="Sticky Note" data-price="7.20" data-image="PICTURES\stickynotes.jpg">add to cart</a>
+                    <a href="#products" class="material-symbols-outlined">share</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Sticky Note</h3>
+                <div class="price">RM7.20 <span>RM8.00</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-15%</span>
+            <div class="image">
+                <img src="PICTURES\pensilcolorset.jpg" alt="">
+                <div class="icons">
+                    <a href="#products" class="material-symbols-outlined">favorite </a>
+                    <a href="#products" class="cart-btn" data-name="Set Pencil Color [12pcs]" data-price="11.90" data-image="PICTURES\pensilcolorset.jpg">add to cart</a>
+                    <a href="#products" class="material-symbols-outlined">share</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3> Set Pencil Color [12pcs] </h3>
+                <div class="price">RM11.90 <span>RM14.00</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+           
+            <div class="image">
+                <img src="PICTURES\colorfulpenset.jpg" alt="">
+                <div class="icons">
+                    <a href="#products" class="material-symbols-outlined">favorite </a>
+                    <a href="#products" class="cart-btn" data-name="Set Color Pen [12pcs]" data-price="12.00" data-image="PICTURES\colorfulpenset.jpg">add to cart</a>
+                    <a href="#products" class="material-symbols-outlined">share</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3> Set Color Pen[12pcs]</h3>
+                <div class="price">RM12.00</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-20%</span>
+            <div class="image">
+                <img src="PICTURES\daisy notebook.jpg" alt="">
+                <div class="icons">
+                    <a href="#products" class="material-symbols-outlined">favorite </a>
+                    <a href="#products" class="cart-btn" data-name="Daisy Notebook Signature" data-price="8.50" data-image="PICTURES\daisy notebook.jpg">add to cart</a>
+                    <a href="#products" class="material-symbols-outlined">share</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Daisy Notebook Signature</h3>
+                <div class="price">RM8.50 <span>RM10.60</span></div>
+            </div>
+        </div>
+    
+        <div class="box">
+            <span class="discount">-15%</span>
+            <div class="image">
+                <img src="PICTURES\watercolor.jpg" alt="">
+                <div class="icons">
+                    <a href="#products" class="material-symbols-outlined">favorite </a>
+                    <a href="#products" class="cart-btn" data-name="Set Watercolors [12pcs]" data-price="15.40" data-image="PICTURES\watercolor.jpg">add to cart</a>
+                    <a href="#products" class="material-symbols-outlined">share</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3> Set Watercolors [12pcs] </h3>
+                <div class="price">RM15.40 <span>RM18.50</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            
+            <div class="image">
+                <img src="PICTURES\eraser.jpg" alt="">
+                <div class="icons">
+                    <a href="#products" class="material-symbols-outlined">favorite </a>
+                    <a href="#products" class="cart-btn" data-name="Set Eraser [4pcs]" data-price="10.00" data-image="PICTURES\eraser.jpg">add to cart</a>
+                    <a href="#products" class="material-symbols-outlined">share</a>
+            </div>
+            <div class="content">
+                <h3> Set Eraser [4pcs] </h3>
+                <div class="price">RM10.00</div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+        <!-- ADD TO CART SECTION -->
+
+        <div class="cart">
+            <h1>Cart</h1>
+            <ul class="listCart">
+            </ul>
+            <div class="checkOut">
+                <div class="total">0</div>
+                <div class="closeShopping">Close</div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+<!--review section starts-->
+<section class="review" id="review">
+    <h1 class="heading">customer's <span>review</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="stars">
+            <i class="material-symbols-outlined">star</i>
+            <i class="material-symbols-outlined">star</i>
+            <i class="material-symbols-outlined">star</i>
+            <i class="material-symbols-outlined">star</i>
+            <i class="material-symbols-outlined">star</i>
+            </div>
+            <p>Daisy Stationery has truly elevated my writing experience. Their elegant designs and top-notch quality make every stroke of the pen feel like magic. I'm constantly inspired by their beautiful products!"</p>
+            <div class="user">
+                <img src="PICTURES\pic-1.png" alt="">
+                <div class="user-info">
+                    <h3>JOHNSON EVAN</h3>
+                    <h4>Happy Customers</h4>
+                </div>
+            </div>
+            <span class="material-symbols-outlined">format_quote</span>
+
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                <i class="material-symbols-outlined">star</i>
+                <i class="material-symbols-outlined">star</i>
+                <i class="material-symbols-outlined">star</i>
+                <i class="material-symbols-outlined">star</i>
+                <i class="material-symbols-outlined">star</i>
+                </div>
+                <p>"Shopping at Daisy Stationery is a treat for the senses. From their delightful packaging to the exquisite craftsmanship of their stationery, every detail reflects their dedication to creativity and customer satisfaction. A gem of a store!"</p>
+                <div class="user">
+                    <img src="PICTURES\pic-2.png" alt="">
+                    <div class="user-info">
+                        <h3>MARIE SMITH</h3>
+                        <h4>Happy Customers</h4>
+                    </div>
+                </div>
+                <span class="material-symbols-outlined">format_quote</span>
+    
+            </div>
+    
+        <div class="box">
+            <div class="stars">
+                <i class="material-symbols-outlined">star</i>
+                <i class="material-symbols-outlined">star</i>
+                <i class="material-symbols-outlined">star</i>
+                <i class="material-symbols-outlined">star</i>
+                <i class="material-symbols-outlined">star</i>
+            </div>
+                <p>"Daisy Stationery embodies everything I love about stationery shopping - elegance, variety, and exceptional service. Each purchase feels like a curated experience, and I always find the perfect tools to bring my ideas to life. Highly recommend!"</p>
+                <div class="user">
+                    <img src="PICTURES\pic-3.png" alt="">
+                    <div class="user-info">
+                        <h3>CHARLES DECO</h3>
+                        <h4>Satisfied Ccustomer</h4>
+                    </div>
+                </div>
+            <span class="material-symbols-outlined">format_quote</span>
+    
+        </div>
+    </div>
+</section>
+<section class="contact" id="contact">
+    <h1 class="heading"><span>contact</span> us</h1>
+    <div class="row">
+
+        <form action="#" method="POST"> 
+            <label for="name">Name:</label>
+            <input type="text" id="name" class="box" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" class="box" placeholder="Your Email" required>
+
+            <label for="number">Phone Number:</label>
+            <input type="tel" id="number" class="box" placeholder="Your Phone Number" pattern="[0-9]{10}" title="Please enter a valid phone number (10 digits)" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" class="box" placeholder="Your Message" rows="5" required></textarea>
+
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+        <div class="image">
+            <img src="PICTURES\daisy_stationery_background.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+<!--footer section starts-->
+<section class="footer">
+    <div class="box-container">
+
+        <div class="box-container">
+            <div class="box quick-links">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <p>+6013-456-7890</p>
+            <p>2023698914@student.uitm.edu.my</p>
+            <p>Arau,Malaysia</p>
+        </div>
+
+        
+        <div class="box accepted-payments">
+            <h3>Accepted Payments</h3>
+            <img src="PICTURES\payment.png" alt="Accepted Payments">
+        </div>
+    </div>
+    <div class="credit">
+        &copy; Created by <span>DAISY STATIONERY SHOP<br>All Rights Reserved. </br> </span>
+    </div>
+</section>
+
+        <script src="app2.js"></script>
+</body>
+</html>
